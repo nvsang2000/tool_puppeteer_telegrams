@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            width: 250px; 
+            height: 400px;
+            box-sizing: border-box; 
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+            background-color: #f9f9f9;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        label {
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .btn-get-query-id {
+            background-color: #008CBA; 
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn-get-query-id:hover {
+            background-color: #005f73;
+        }
+        #message {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Đã sợ thì đừng dùng, đã dùng thì đừng sợ.</h1>
+    <button class="btn-get-query-id">Lấy query_id</button>
+    <div id="message">Đã lấy được query_id!</div>
+
+    <div class="stat"><span>Tải Extension Tại Tele <a href="https://t.me/dancayairdrop">Dân Cày Airdrop</a></span></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

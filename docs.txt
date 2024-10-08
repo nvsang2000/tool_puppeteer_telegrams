@@ -1,0 +1,10 @@
+B1  tạo thư mục data để chứa dữ liệu của browser.
+    + ví dụ  data/user_data, data/user_data_1: có bao nhiêu tài khoản tạo bấy nhiêu user_data trong thư mục data.
+
+B2 install and start
+
+npm install
+
+npm start
+
+* lưu ý nhứ đăng nhập telegram mới sử dụng được.
